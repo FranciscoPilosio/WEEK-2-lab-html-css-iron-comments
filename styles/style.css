@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  padding-top: 100px;
+  width: 100vw;
+  background-color: rgb(25, 33, 41);
+}
+
+#form-container {
+  margin: auto;
+  color: rgb(255, 255, 255);
+  border: 2.5px solid rgb(67, 163, 230);
+  border-radius: 2.5px;
+  padding: 1%;
+  text-align: left;
+  box-sizing: border-box;
+  width: 250px;
+  display: inline-block;
+  font-style: normal;
+  font-size: medium;
+}
+
+#submit {
+  background: rgb(67, 163, 230);
+  color: rgb(255, 255, 255);
+  border: 0.5px solid rgb(67, 163, 230);
+  border-radius: 7.5px;
+  font-size: 0.75em;
+}
+
+input[type="name"],
+input[type="email"],
+textarea {
+  border: 0.5px solid rgb(67, 163, 230);
+  border-radius: 2.5px;
+  width: 100%;
+}
+
+.width {
+  width: 80%;
+}
